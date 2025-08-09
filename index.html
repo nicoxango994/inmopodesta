@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>PODESTA · Gestión Inmobiliaria</title>
   <meta name="description" content="PODESTA Gestión Inmobiliaria · Tasaciones, ventas y alquileres con transparencia y resultados. Hablemos hoy mismo." />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Ccircle cx='64' cy='64' r='64' fill='%23f0d000'/%3E%3Cpath d='M31 80c16-7 36-7 54 0' stroke='%23222222' stroke-width='6' fill='none' stroke-linecap='round'/%3E%3Cpath d='M44 40l20-14 20 14v28H44z' fill='none' stroke='%23222222' stroke-width='6' stroke-linejoin='round'/%3E%3Crect x='58' y='58' width='12' height='20' rx='2' fill='%23222222'/%3E%3C/svg%3E"/>
+  <link rel="icon" href="logo1.jpeg"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
   <style>
     :root{
       --brand:#f0d000; /* amarillo PODESTA (ajustable) */
@@ -27,7 +28,7 @@
     .nav{display:flex;align-items:center;justify-content:space-between;height:78px}
     .brand{display:flex;gap:12px;align-items:center}
     .brand svg{width:46px;height:46px}
-    .brand-name{font-weight:800;letter-spacing:.3px}
+    .brand-name{font-family: 'Montserrat', sans-serif;font-weight:800;letter-spacing:.3px}
     .navlinks{display:flex;gap:18px;align-items:center}
     .navlinks a{padding:10px 12px;border-radius:10px}
     .navlinks a:hover{background:#00000008}
@@ -109,13 +110,9 @@
     <div class="container nav">
       <a class="brand" href="#inicio" aria-label="PODESTA Gestión Inmobiliaria">
         <!-- LOGO SVG recreado según tu paleta y formas (casa + base) -->
-        <svg viewBox="0 0 128 128" aria-hidden="true">
-          <circle cx="64" cy="64" r="64" fill="var(--brand)"/>
-          <path d="M32 88c16-7 36-7 54 0" stroke="var(--ink)" stroke-width="6" fill="none" stroke-linecap="round"/>
-          <path d="M44 44l20-14 20 14v28H44z" fill="none" stroke="var(--ink)" stroke-width="6" stroke-linejoin="round"/>
-          <rect x="58" y="62" width="12" height="18" rx="2" fill="var(--ink)"/>
-        </svg>
+        <img src="./logo1.png" alt="PODESTA Gestión Inmobiliaria" style="width:100px;height:100px;object-fit:contain;">
         <span class="brand-name">PODESTA · Gestión Inmobiliaria</span>
+        
       </a>
       <nav class="navlinks" id="nav">
         <a href="#servicios">Servicios</a>
@@ -132,7 +129,7 @@
   <section class="hero" id="inicio">
     <div class="container hero-inner">
       <div>
-        <span class="badge">Elegancia, confianza y resultados</span>
+        <span class="badge">Responsabilidad, confianza y resultados</span>
         <h1>Tu operación inmobiliaria, bien gestionada</h1>
         <p class="lead">Ventas, alquileres y administración con procesos claros y atención personalizada. Somos tu equipo inmobiliario de confianza.</p>
         <div style="display:flex;gap:12px;flex-wrap:wrap">
@@ -244,14 +241,14 @@
   </section>
 
   <!-- TESTIMONIOS -->
-  <section id="opiniones">
+  <!-- <section id="opiniones">
     <div class="container">
       <h2>Opiniones</h2>
       <blockquote>“Vendieron mi departamento en 30 días y me mantuvieron informado en todo momento.” — M. Podestá</blockquote>
       <br/>
       <blockquote>“Proceso transparente y fotos increíbles. Súper profesionales.” — C. R.</blockquote>
     </div>
-  </section>
+  </section> -->
 
   <!-- CONTACTO -->
   <section id="contacto" style="background:var(--muted)">
@@ -275,7 +272,7 @@
   <!-- Footer -->
   <footer>
     <div class="container footer-inner">
-      <div>© <span id="year"></span> PODESTA · Gestión Inmobiliaria — Elegancia y confianza en cada operación.</div>
+      <div>© <span id="year"></span> PODESTA · Gestión Inmobiliaria — Responsabilidad y confianza en cada operación.</div>
       <div class="social" aria-label="Redes sociales">
         <a href="https://www.instagram.com/podesta_gestion_inmobiliaria" target="_blank" title="Instagram" aria-label="Instagram">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-width="2"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke-width="2"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5" stroke-width="2"/></svg>
